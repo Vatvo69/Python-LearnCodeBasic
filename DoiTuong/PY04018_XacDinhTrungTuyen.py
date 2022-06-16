@@ -54,7 +54,7 @@ if __name__ == '__main__':
         mon2 = Decimal(input())
         id = "GV{:02d}".format(i)
         tt = TrungTuyen(id, name, maMH, mon1, mon2)
-        tt.getMon()
+        tt.getMon()1
         tt.getUuTien()
         tt.getTongDiem()
         tt.getXepLoai()
